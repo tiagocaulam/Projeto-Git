@@ -3,3 +3,4 @@ linha B
 linha 2 na branch1
 linha 1
 linha 2 na branch3
+editei pelo vscode, perdoa
