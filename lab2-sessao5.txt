@@ -1,0 +1,93 @@
+Script started on 2025-08-01 21:47:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="30"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git checkout -b feature
+[?2004lSwitched to a new branch 'feature'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ echo ""[Cl"i"n"h"a" "f"e"a"t"u"r"e"[C > arquivo.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ a[Kgit add arquivo.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git commit -m ""c"o"m"m"i"t" "n"a" "f"e"a"t"u"r"e"
+[?2004l[feature 9181787] commit na feature
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git branch
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+* [32mfeature[m[m
+  feature-a[m[m
+  feature-b[m[m
+  main[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git checkout main
+[?2004lSwitched to branch 'main'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ echo ""l"i"n"h"a" "m"ain"[C[K" > arquivo [K.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git add arquivo.r[Ktxt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git commit -m ""c"o"m"m"i"t" "n"a" "m"a"i"n"
+[?2004l[main 8b0630a] commit na main
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git branch
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ gi [Kt checo[Kkout feature
+[?2004lSwitched to branch 'feature'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git merge main
+[?2004lAuto-merging arquivo.txt
+CONFLICT (content): Merge conflict in arquivo.txt
+Automatic merge failed; fix conflicts and then commit the result.
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git status
+[?2004lOn branch feature
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	[31mboth modified:   arquivo.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab2-sessao3.txt[m
+	[31mlab2-sessao4.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git merge --abort
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git reset --hard HEAD`[K^[K~1
+[?2004lHEAD is now at e918bee configurando o ignore
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git rebase main
+[?2004l[KSuccessfully rebased and updated refs/heads/feature.
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git log --oe[Kneline --all
+[?2004l[?1h=[33m8b0630a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature[m[33m, [m[1;32mmain[m[33m)[m commit na main[m
+[33me918bee[m configurando o ignore[m
+[33mec73f14[m Resolvido conflito[m
+[33mfc44b8b[m Merge branch 'branch3'[m
+[33m2de9f0b[m Merge branch 'branch2'[m
+[33m48c727d[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33m0699396[m[33m ([m[1;32mbranch2[m[33m)[m adicionei linha 2 na branch2[m
+[33mafb88b0[m[33m ([m[1;32mbranch1[m[33m)[m adicionei linha 2 no arquivo[m
+[33ma97f6ea[m adicionei linha 1 no arquivo.txt[m
+[33m1d28fbd[m Merge branch 'feature-b'[m
+[33m6e57cba[m[33m ([m[1;32mfeature-b[m[33m)[m Feature B[m
+[33me6596fb[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma953bab[m v3 main[m
+[33m8450795[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33mbd0dcec[m alterei o arquivo.txt[m
+[33m6f2170d[m commit 2[m
+[33m119fa22[m commit 1[m
+[33mff7f074[m v4[m
+[33m746e8f6[m v3[m
+[33md8e8e5f[m v2[m
+[33m042930c[m v1[m
+[33m430ba99[m v1[m
+[33ma993240[m Corrige v2 revertido[m
+[33mea10083[m v2[m
+[33m7f297ab[m v1[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-01 21:51:02-03:00 [COMMAND_EXIT_CODE="0"]

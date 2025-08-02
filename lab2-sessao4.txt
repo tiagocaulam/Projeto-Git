@@ -1,0 +1,48 @@
+Script started on 2025-08-01 21:45:39-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="30"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mtouch .env[27mtouch .env
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mecho ".env" >> .gitignore[27mecho ".env" >> .gitignore
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit status[27mgit status
+[?2004lOn branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31mlab2-sessao3.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mcat .gitignore[27mcat .gitignore
+[?2004l.env
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit add .gitignore[27mgit add .gitignore
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git commit -am "vonfigura[K[K[K[K[K[K[K[K[Kconfigurando o ignore"
+[?2004l[main e918bee] configurando o ignore
+ 1 file changed, 1 insertion(+)
+ create mode 100644 .gitignore
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit log --oneline --all[27mgit log --oneline --all
+[?2004l[?1h=[33me918bee[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m configurando o ignore[m
+[33mec73f14[m Resolvido conflito[m
+[33mfc44b8b[m Merge branch 'branch3'[m
+[33m2de9f0b[m Merge branch 'branch2'[m
+[33m48c727d[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33m0699396[m[33m ([m[1;32mbranch2[m[33m)[m adicionei linha 2 na branch2[m
+[33mafb88b0[m[33m ([m[1;32mbranch1[m[33m)[m adicionei linha 2 no arquivo[m
+[33ma97f6ea[m adicionei linha 1 no arquivo.txt[m
+[33m1d28fbd[m Merge branch 'feature-b'[m
+[33m6e57cba[m[33m ([m[1;32mfeature-b[m[33m)[m Feature B[m
+[33me6596fb[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma953bab[m v3 main[m
+[33m8450795[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33mbd0dcec[m alterei o arquivo.txt[m
+[33m6f2170d[m commit 2[m
+[33m119fa22[m commit 1[m
+[33mff7f074[m v4[m
+[33m746e8f6[m v3[m
+[33md8e8e5f[m v2[m
+[33m042930c[m v1[m
+[33m430ba99[m v1[m
+[33ma993240[m Corrige v2 revertido[m
+[33mea10083[m v2[m
+[33m7f297ab[m v1[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-01 21:46:52-03:00 [COMMAND_EXIT_CODE="0"]
