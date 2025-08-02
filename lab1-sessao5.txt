@@ -1,0 +1,57 @@
+Script started on 2025-08-01 16:05:59-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mecho "linha 1" > arquivo.txt[27m
+[7mgit add arquivo.txt[27m
+[7mgit commit -m "commit 1"[27m[A[A]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ echo "linha 1" > arquivo.txt
+git add arquivo.txt
+git commit -m "commit 1"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit add arquivo.txt[27mgit add arquivo.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit commit -m "commit 1"[27mgit commit -m "commit 1"
+[?2004l[master 119fa22] commit 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 arquivo.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git commit -m "commit 1"[5Padd arquivo.txt[9@echo "linha 1" >[C[C[C[C[C[C[C[C[C[C[C[C[9Pgit add[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git add arquivo.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit ls-tree HEAD[27mgit ls-tree HEAD
+[?2004l100644 blob ed7ce12274bc71c66cb596feaaf9f02ce91b820e	README.md
+100644 blob 9ece50267075657265ca0813fd606b80c2ba5560	arquivo.txt
+100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391	lab1-sessao2.txt
+100644 blob 4b1d4d4b660c400875dd122de217e942f481a378	notas.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7m100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391    arquivo.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391    arquivo.txt
+[?2004l100644: command not found
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit ls-tree HEAD[27mgit ls-tree HEAD
+[?2004l100644 blob ed7ce12274bc71c66cb596feaaf9f02ce91b820e	README.md
+100644 blob 9ece50267075657265ca0813fd606b80c2ba5560	arquivo.txt
+100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391	lab1-sessao2.txt
+100644 blob 4b1d4d4b660c400875dd122de217e942f481a378	notas.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit cat-file -p <hash-do-blob>[27mgit cat-file -p <hash-do-blob>[1P>[1P>[1P>[1P>[1P>[1P>[1P>[1P>[1P>[1P>[1P>[1P>[1P>[C[K[7m9ece50267075657265ca0813fd606b80c2ba5560[27m9ece50267075657265ca0813fd606b80c2ba5560
+[?2004llinha 1
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mecho "linha 2" >> arquivo.txt[27mecho "linha 2" >> arquivo.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit commit -am "commit 2"[27mgit commit -am "commit 2"
+[?2004l[master 6f2170d] commit 2
+ 1 file changed, 1 insertion(+)
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit ls-tree HEAD[27mgit ls-tree HEAD
+[?2004l100644 blob ed7ce12274bc71c66cb596feaaf9f02ce91b820e	README.md
+100644 blob b657d301415e1227e5b13ee181c308eb3f6008b7	arquivo.txt
+100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391	lab1-sessao2.txt
+100644 blob 4b1d4d4b660c400875dd122de217e942f481a378	notas.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit cat-file -p[27mgit cat-file -p [7m4b1d4d4b660c400875dd122de217e942f481a378[27m4b1d4d4b660c400875dd122de217e942f481a378[7m4b1d4d4b660c400875dd122de217e942[27m[7mf[27m[7m481a378[27m[A]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4b1d4d4b660c400875dd122de217e942f[1P481a37[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kda[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mb657d301415e1227e5b13ee181c308eb3f6008b7[27mb657d301415e1227e5b13ee181c308eb3f6008b7
+[?2004llinha 1
+linha 2
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mb657d301415e1227e5b13ee181c308eb3f6008b7[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pb657d301415e1227e5b13ee181c308eb3f6008b[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit cat-file -p b657d301415e1227e5b13ee181c308eb3f6008b7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls-tree HEAD[Kcommit -am "commit 2"[9Pls-tree HEAD
+[?2004l100644 blob ed7ce12274bc71c66cb596feaaf9f02ce91b820e	README.md
+100644 blob b657d301415e1227e5b13ee181c308eb3f6008b7	arquivo.txt
+100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391	lab1-sessao2.txt
+100644 blob 4b1d4d4b660c400875dd122de217e942f481a378	notas.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mb657d301415e1227e5b13ee181c308eb3f6008b7[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cb657d301415e1227e5b13ee181c308eb3f6008b7[7mgit cat-file -p[27mb657d301415e1227e5b13ee181c308eb3f6008b7git cat-file -pb657d301415e1227e5b13ee181c308eb3f6008b7 b657d301415e1227e5b13ee181c308eb3f6008b7
+[?2004llinha 1
+linha 2
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git cat-file -p b657d301415e1227e5b13ee181c308eb3f6008b7[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m9ece50267075657265ca0813fd606b80c2ba5560[27m9ece50267075657265ca0813fd606b80c2ba5560
+[?2004llinha 1
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-01 16:13:56-03:00 [COMMAND_EXIT_CODE="0"]

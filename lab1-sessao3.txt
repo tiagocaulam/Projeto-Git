@@ -1,0 +1,38 @@
+Script started on 2025-08-01 16:03:44-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit log --oneline[27mgit log --oneline
+[?2004l[?1h=[33mcd179a1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m v5[m
+[33mff7f074[m v4[m
+[33m746e8f6[m v3[m
+[33md8e8e5f[m v2[m
+[33m042930c[m v1[m
+[33m430ba99[m v1[m
+[33ma993240[m Corrige v2 revertido[m
+[33mea10083[m v2[m
+[33m7f297ab[m v1[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit log -1[27mgit log -1
+[?2004l[?1h=[33mcommit cd179a127971775cc9e9939b7d72879ecae88e25[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 16:03:32 2025 -0300[m
+[m
+    v5[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit config user.name[27mgit config user.name
+[?2004lTiago
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit config user.email[27mgit config user.email
+[?2004ltiagocaulam@gmail.com
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit diff HEAD~1 HEAD[27mgit diff HEAD~1 HEAD
+[?2004l[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex ed7ce12..4d73d61 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -2,3 +2,4 @@[m [mv1[m[m
+ v2[m[m
+ v3[m[m
+ v4[m[m
+[32m+[m[32mv5[m[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-01 16:04:31-03:00 [COMMAND_EXIT_CODE="0"]

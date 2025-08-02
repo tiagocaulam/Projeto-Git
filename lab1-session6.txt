@@ -1,0 +1,75 @@
+Script started on 2025-08-01 19:24:45-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [K]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mecho "linha 1" > arquivo.txt[27mecho "linha 1" > arquivo.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit add arquivo.txt[27mgit add arquivo.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit commit -m "algum commit"[27mgit commit -m "algum commit"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"a"rq"[1P"q"u"i"v"o"[1P"[1P"[1P"[1P"[1P"[1P"[1P"a"l"t"e"r"e"i" "o" "a"r"q"u"i"v"o" "[1P"."t"x"t" "[1P"
+[?2004l[master bd0dcec] alterei o arquivo.txt
+ 1 file changed, 1 deletion(-)
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mls .git/objects[27mls .git/objects
+[?2004l[0m[01;34m01[0m  [01;34m11[0m  [01;34m27[0m  [01;34m43[0m  [01;34m4d[0m  [01;34m6f[0m  [01;34m7f[0m  [01;34m8b[0m  [01;34m99[0m  [01;34ma9[0m  [01;34mb0[0m  [01;34mbd[0m  [01;34mcd[0m  [01;34me6[0m  [01;34med[0m  [01;34mff[0m    [01;34mpack[0m
+[01;34m04[0m  [01;34m21[0m  [01;34m38[0m  [01;34m4b[0m  [01;34m62[0m  [01;34m74[0m  [01;34m87[0m  [01;34m8e[0m  [01;34m9e[0m  [01;34mac[0m  [01;34mb6[0m  [01;34mc9[0m  [01;34md8[0m  [01;34mea[0m  [01;34mf3[0m  [01;34minfo[0m
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mfind .git/objects -type f[27mfind .git/objects -type f
+[?2004l.git/objects/ed/7ce12274bc71c66cb596feaaf9f02ce91b820e
+.git/objects/a9/18a46af9852d108962df0b4f8a5d9c60a6fc1f
+.git/objects/a9/9324038c2b67ccac516d477d27e7aa05ed0a39
+.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+.git/objects/99/895b32ebd9c89ebac3669fd5c47baf78237272
+.git/objects/c9/6c114eeb4510f6147c444c4db3007d836fcecd
+.git/objects/21/39d8be699ff388ab3ec85008a3906675ac67cb
+.git/objects/4b/1d4d4b660c400875dd122de217e942f481a378
+.git/objects/62/6799f0f85326a8c1fc522db584e86cdfccd51f
+.git/objects/87/41baa5986bc8ebfdac9292a13ce6e2a1ac2730
+.git/objects/11/9fa22c16d20f1361630b029adf848d98cae238
+.git/objects/bd/0dcec0d21a1fb11634b2d1ec50b509af23ec23
+.git/objects/04/2930c3fd0a0010b385b0ecd8f5c357a9531b39
+.git/objects/8e/5b3b1c670e987446b232171fe8db26287a41c6
+.git/objects/cd/179a127971775cc9e9939b7d72879ecae88e25
+.git/objects/6f/2170da404b50effed3e1702aee364102675193
+.git/objects/ac/84069316e1a2b117c15b91ed6cacbf5a1b8de2
+.git/objects/8b/99353ed4314c016e1a75ad5ba0da14214a0c78
+.git/objects/7f/297ab15259e0a9151486a347b543381a7f58c0
+.git/objects/43/0ba996b514bf104c08faee21160e162b272687
+.git/objects/b0/0cb541eb258e6f9a86a7ffa05ded45df6459f8
+.git/objects/27/e6a9566939ca80b76c7e23925e269510c0755d
+.git/objects/9e/ce50267075657265ca0813fd606b80c2ba5560
+.git/objects/9e/bafe8bb1fd4bb196884bf4646d6b7e9b6ef1d8
+.git/objects/d8/e8e5f4da3d797bd414473038d3af9f4de9913c
+.git/objects/01/3e97afba79287db48406a4b7593d25b2ab6468
+.git/objects/f3/0138a83cd5a9fa82a5f84ba90c596f77545b3e
+.git/objects/ff/7f074018f6cbe864bf7796b3ac5f71bd92af24
+.git/objects/b6/57d301415e1227e5b13ee181c308eb3f6008b7
+.git/objects/4d/73d612043616ec9150d039de661685eb8fed8f
+.git/objects/74/6e8f64e69832c595d751a8540434609a42d0d6
+.git/objects/38/87446b6b9a96c2cc04627ee0f5713b7c265ee7
+.git/objects/ea/10083dc108ac49082ae652239a9292b5d6ab18
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit rev-parse HEAD[27mgit rev-parse HEAD
+[?2004lbd0dcec0d21a1fb11634b2d1ec50b509af23ec23
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit cat-file -t[27mgit cat-file -t [7mbd0dcec0d21a1fb11634b2d1ec50b[27m[7m5[27m[7m09af23ec23[27m[A]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbd0dcec0d21a1fb11634b2d1ec50b509af23ec23
+[?2004lcommit
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit cat-file -p[27mgit cat-file -p [7mbd0dcec0d21a1fb11634b2d1ec50b[27m[7m5[27m[7m09af23ec23[27m[A]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbd0dcec0d21a1fb11634b2d1ec50b509af23ec23
+[?2004ltree 3887446b6b9a96c2cc04627ee0f5713b7c265ee7
+parent 6f2170da404b50effed3e1702aee364102675193
+author Tiago <tiagocaulam@gmail.com> 1754087166 -0300
+committer Tiago <tiagocaulam@gmail.com> 1754087166 -0300
+
+alterei o arquivo.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit ls-tree HEAD[27mgit ls-tree HEAD
+[?2004l100644 blob ed7ce12274bc71c66cb596feaaf9f02ce91b820e	README.md
+100644 blob 9ece50267075657265ca0813fd606b80c2ba5560	arquivo.txt
+100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391	lab1-sessao2.txt
+100644 blob 4b1d4d4b660c400875dd122de217e942f481a378	notas.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit cat-file -t[27mgit cat-file -t [7mbd0dcec0d21a1fb11634b2d1ec50b[27m[7m5[27m[7m09af23ec23[27m[A]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbd0dcec0d21a1fb11634b2d1ec50b509af23ec23
+[?2004lcommit
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ cd ..
+[?2004l[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mgit-workshop[0m  lab1-sessao1.txt
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ mv lab1-sessao1.txt git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ ls
+[?2004l[0m[01;34mgit-workshop[0m
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-01 19:29:40-03:00 [COMMAND_EXIT_CODE="0"]
