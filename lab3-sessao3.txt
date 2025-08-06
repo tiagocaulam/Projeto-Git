@@ -1,0 +1,83 @@
+Script started on 2025-08-06 16:40:50-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="29"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit branch # main[27mgit branch # main
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-123[m[m
+  feature-888[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit log --oneline[27mgit log --oneline
+[?2004l[?1h=[33m899c3d4[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m commit limpo[m
+[33mdd173b4[m[33m ([m[1;31morigin/main[m[33m)[m commit base[m
+[33m8b0630a[m[33m ([m[1;32mfeature[m[33m)[m commit na main[m
+[33me918bee[m configurando o ignore[m
+[33mec73f14[m Resolvido conflito[m
+[33mfc44b8b[m Merge branch 'branch3'[m
+[33m2de9f0b[m Merge branch 'branch2'[m
+[33m48c727d[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33m0699396[m[33m ([m[1;32mbranch2[m[33m)[m adicionei linha 2 na branch2[m
+[33mafb88b0[m[33m ([m[1;32mbranch1[m[33m)[m adicionei linha 2 no arquivo[m
+[33ma97f6ea[m adicionei linha 1 no arquivo.txt[m
+[33m1d28fbd[m Merge branch 'feature-b'[m
+[33m6e57cba[m[33m ([m[1;32mfeature-b[m[33m)[m Feature B[m
+[33me6596fb[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma953bab[m v3 main[m
+[33m8450795[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33mbd0dcec[m alterei o arquivo.txt[m
+[33m6f2170d[m commit 2[m
+[33m119fa22[m commit 1[m
+[33mff7f074[m v4[m
+[33m746e8f6[m v3[m
+[33md8e8e5f[m v2[m
+[33m042930c[m v1[m
+[33m430ba99[m v1[m
+[33ma993240[m Corrige v2 revertido[m
+[33mea10083[m v2[m
+[33m7f297ab[m v1[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit checkout -b test-reset[27mgit checkout -b test-reset
+[?2004lSwitched to a new branch 'test-reset'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit reset --soft HEAD~1[27mgit reset --soft HEAD~1
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit status[27mgit status
+[?2004lOn branch test-reset
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   app.py[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mlab2-sessao6.txt[m
+	[31mlab3-sessao0.txt[m
+	[31mlab3-sessao1.txt[m
+	[31mlab3-sessao2.txt[m
+
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit diff[27mgit diff7[K
+[?2004l[?1h=[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit diff[27mgit diff
+[?2004l[?1h=[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git co[K[Kadd.[K .
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git commit
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;29r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[27;57H(B[0;7m[ Reading... ](B[m[27;56H(B[0;7m[ Read 12 lines ](B[m[H(B[0;7m  GNU nano 7.2                              /home/tiago/git-workshop/.git/COMMIT_EDITMSG                                       [1;126H(B[m[28d(B[0;7m^G(B[m Help[28;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[28;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[29d(B[0;7m^X(B[m Exit[29;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[3d[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch test-reset[7d# Changes to be committed:[8d#[38;5;208m       [36mnew file:   app.py[9d#[38;5;208m       [36mnew file:   lab2-sessao6.txt[10d#[38;5;208m       [36mnew file:   lab3-sessao0.txt[11d#[38;5;208m       [36mnew file:   lab3-sessao1.txt[12d#[38;5;208m       [36mnew file:   lab3-sessao2.txt[13d#[2d[39m(B[m[?12l[?25h[?25l[1;90H(B[0;7m*[126G(B[m7[2;26r8[2dM[1;29r[3;1H[?12l[?25h[?25l[2;26r[26;1H
+[1;29r[2;1H[?12l[?25h[?25l[?12l[?25h[?25l[27d(B[0;7mSave modified buffer?                                                                                                          [28;1H Y(B[m Yes[K[29d(B[0;7m N(B[m No  [29;16H (B[0;7m^C(B[m Cancel[K[27;23H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[28d(B[0;7m^G(B[m Help[28;32H(B[0;7mM-D(B[m DOS Format[28;63H(B[0;7mM-A(B[m Append[28;94H(B[0;7mM-B(B[m Backup File[29d(B[0;7m^C(B[m Cancel[17G         [32G(B[0;7mM-M(B[m Mac Format[29;63H(B[0;7mM-P(B[m Prepend[29;94H(B[0;7m^T(B[m Browse[27d(B[0;7mFile Name to Write: /home/tiago/git-workshop/.git/COMMIT_EDITMSG(B[m[?12l[?25h[?25l[27;56H[1K (B[0;7m[ Writing... ](B[m[K[1;90H(B[0;7m [126G(B[m[27;55H(B[0;7m[ Wrote 12 lines ](B[m[J[29d[?12l[?25h[29;1H[?1049l[23;0;0t[?1l>[?2004l[KAborting commit due to empty commit message.
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ got commig [K[Ky [K[Kt -m "colocando os lab[K[K[Klab-script"
+[?2004lCommand 'got' not found, but can be installed with:
+sudo apt install got
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ got commit -m "colocando os lab-script"[1P[1@i
+[?2004l[test-reset 306406e] colocando os lab-script
+ 5 files changed, 484 insertions(+)
+ create mode 100644 app.py
+ create mode 100644 lab2-sessao6.txt
+ create mode 100644 lab3-sessao0.txt
+ create mode 100644 lab3-sessao1.txt
+ create mode 100644 lab3-sessao2.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit add .[27mgit add .
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit commit -m 'agora vai'[27mgit commit -m 'agora vai'
+[?2004lOn branch test-reset
+nothing to commit, working tree clean
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2025-08-06 16:42:58-03:00 [COMMAND_EXIT_CODE="1"]
