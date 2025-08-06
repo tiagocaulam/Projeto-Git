@@ -1,0 +1,101 @@
+Script started on 2025-08-01 21:51:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="30"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git chekout main
+[?2004lgit: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+	checkout
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git checkout mian
+[?2004lerror: pathspec 'mian' did not match any file(s) known to git
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git checkout main
+[?2004lSwitched to branch 'main'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ echo "linha"[K base" . arquivo[K[K[K[K[K[K[K[K[K> arquivo [K.tt[K[Kxr[K[Ktxt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git add .
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git commit -m "commit base"
+[?2004l[main dd173b4] commit base
+ 4 files changed, 312 insertions(+), 1 deletion(-)
+ create mode 100644 lab2-sessao3.txt
+ create mode 100644 lab2-sessao4.txt
+ create mode 100644 lab2-sessao5.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git checkout -b feature-123
+[?2004lSwitched to a new branch 'feature-123'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ a[Kecho""m"u"d"a"n"ç"a" "A"[1@ [C[C[C[C[C[C[C[C[C[C[C >> arquivo.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git commit -am ""a"l"t"e"r"a"ç"ã"o" "m"a" "b"r"a"n"c"h" "[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"na bra"n"c"h" "A"
+[?2004l[feature-123 b8f5900] alteração na branch A
+ 1 file changed, 1 insertion(+)
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git checkout main
+[?2004lSwitched to branch 'main'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git chekout -b feature-4[K888
+[?2004lgit: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+	checkout
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git chekout -b feature-888[1@c
+[?2004lSwitched to a new branch 'feature-888'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ echo ""m"u"d"a"n"ç"a" "b"[1P"V"[1P"B"[C >> arqqu[K[Kuivo [K.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git commit  - [Kam a[K""a"l"t"e"r"a"ç"ã"o" "n"a" "b"r"a"n"c"h" "B"
+[?2004l[feature-888 1490288] alteração na branch B
+ 1 file changed, 1 insertion(+)
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git checkout feature-132[K[K23
+[?2004lSwitched to branch 'feature-123'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git reabse feature-888
+[?2004lgit: 'reabse' is not a git command. See 'git --help'.
+
+The most similar command is
+	rebase
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git reabse feature-888[1P[1P[1@n[1@a[1P[1P[1@b[1@a
+[?2004lRebasing (1/1)Auto-merging arquivo.txt
+CONFLICT (content): Merge conflict in arquivo.txt
+error: could not apply b8f5900... alteração na branch A
+[33mhint: Resolve all conflicts manually, mark them as resolved with[m
+[33mhint: "git add/rm <conflicted_files>", then run "git rebase --continue".[m
+[33mhint: You can instead skip this commit: run "git rebase --skip".[m
+[33mhint: To abort and get back to the state before "git rebase", run "git rebase --abort".[m
+Could not apply b8f5900... alteração na branch A
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ nano arquivo.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;35H(B[0;7m[ Reading... ](B[m[28;34H(B[0;7m[ Read 6 lines ](B[m[H(B[0;7m  GNU nano 7.2                        arquivo.txt                                  [1;82H(B[m[29d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[30d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2dlinha base[3d<<<<<<< HEAD[4dmudança B[5d=======[6dmudança A[7d>>>>>>> b8f5900 (alteração na branch A)[2d[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h[3d[?25l[?12l[?25h[4d[?25l[?12l[?25h[5d[?25l[1;51H(B[0;7m*[82G(B[m[?12l[?25h[5dO[8G=O[?25l[29;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m Browse[K[28d(B[0;7mFile Name to Write: arquivo.txt                                                    [28;32H(B[m[?12l[?25h[?25l   [1K (B[0;7m[ Cancelled ](B[m[K[29;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut       (B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[30;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[?12l[?25h[5dO[?25l[?12l[?25h[1P[?25l[?12l[?25h[6d[?25l[?12l[?25hm[?25l[?12l[?25h[7d[?25l[?12l[?25h[8d[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h [?25l[?12l[?25hb[?25l[?12l[?25h8[?25l[?12l[?25hf[?25l[?12l[?25h5[?25l[28d[K[?12l[?25h[7;14H[?25l[?12l[?25h0[?25l[?12l[?25h0[?25l[?12l[?25h [?25l[?12l[?25h([?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hn[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hb[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25hA[?25l[?12l[?25h)[?25l[?12l[?25h[8d[?25l[?12l[?25h[?25l[?12l[?25h[7;40H[?25l[?12l[?25h[?25l[?12l[?25h[6;10H[?25l[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[A [?25l[?12l[?25hB[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[4;28r[28;1H
+[1;30r[3;13H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[3;28r[28;1H
+[1;30r[2;11H[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h=[?25l[?12l[?25h=[?25l[?12l[?25h=[?25l[?12l[?25h=[?25l[?12l[?25h=[?25l[?12l[?25h=[?25l[?12l[?25h=[?25l[?12l[?25h[4d[?25l[?12l[?25h[3;8H[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[2;28r[28;1H
+[1;30r[2;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3d[?25l[2;28r[28;1H
+[1;30r[2;1H[?12l[?25h[?25l[?12l[?25h[3d[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h>[?25l[?12l[?25h [?25l[?12l[?25hb[?25l[?12l[?25h8[?25l[?12l[?25hf[?25l[?12l[?25h5[?25l[?12l[?25h9[?25l[?12l[?25h0[?25l[?12l[?25h0[?25l[?12l[?25h [?25l[?12l[?25h([?25l[?12l[?25ha[?25l[?12l[?25hl[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25h[C[?25l[?12l[?25h[C[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hn[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25hb[?25l[?12l[?25hr[?25l[?12l[?25ha[?25l[?12l[?25hn[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h [?25l[?12l[?25hA[?25l[?12l[?25h)[?25l[?12l[?25h[4d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[3;40H[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[2;10H[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                              [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Help[29;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[29;61H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[30;61H(B[0;7m^T(B[m Browse[28d(B[0;7mFile Name to Write: arquivo.txt(B[m[?12l[?25h[?25l  [1K (B[0;7m[ Writing... ](B[m[K[1;51H(B[0;7m [82G(B[m[28;34H(B[0;7m[ Wrote 1 line ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git reabse --[K[K[K[K[K[K[Kbase --continue
+[?2004larquivo.txt: needs merge
+You must edit all merge conflicts and then
+mark them as resolved using git add
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git add aru[Kquivo.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git add arquivo.txtrebase --continue
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;35H(B[0;7m[ Reading... ](B[m[28;34H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 7.2        /home/tiago/git-workshop/.git/COMMIT_EDITMSG                 [1;82H(B[m[29d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[30d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2dalteração na branch A[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# interactive rebase in progress; onto 1490288[8d# Last command done (1 command done):[9d#    pick b8f5900 alteração na branch A[10d# No commands remaining.[11d# You are currently rebasing branch 'feature-123' on '1490288'.[12d#[13d# Changes to be committed:[14d#[38;5;208m       [36mmodified:   arquivo.txt[15d#[2d[39m(B[m[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l[K[detached HEAD 722ef99] alteração na branch A
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[KSuccessfully rebased and updated refs/heads/feature-123.
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit log --oneline --all[27mgit log --oneline --all
+[?2004l[?1h=[33m722ef99[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-123[m[33m)[m alteração na branch A[m
+[33m1490288[m[33m ([m[1;32mfeature-888[m[33m)[m alteração na branch B[m
+[33mdd173b4[m[33m ([m[1;32mmain[m[33m)[m commit base[m
+[33m8b0630a[m[33m ([m[1;32mfeature[m[33m)[m commit na main[m
+[33me918bee[m configurando o ignore[m
+[33mec73f14[m Resolvido conflito[m
+[33mfc44b8b[m Merge branch 'branch3'[m
+[33m2de9f0b[m Merge branch 'branch2'[m
+[33m48c727d[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33m0699396[m[33m ([m[1;32mbranch2[m[33m)[m adicionei linha 2 na branch2[m
+[33mafb88b0[m[33m ([m[1;32mbranch1[m[33m)[m adicionei linha 2 no arquivo[m
+[33ma97f6ea[m adicionei linha 1 no arquivo.txt[m
+[33m1d28fbd[m Merge branch 'feature-b'[m
+[33m6e57cba[m[33m ([m[1;32mfeature-b[m[33m)[m Feature B[m
+[33me6596fb[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma953bab[m v3 main[m
+[33m8450795[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33mbd0dcec[m alterei o arquivo.txt[m
+[33m6f2170d[m commit 2[m
+[33m119fa22[m commit 1[m
+[33mff7f074[m v4[m
+[33m746e8f6[m v3[m
+[33md8e8e5f[m v2[m
+[33m042930c[m v1[m
+[33m430ba99[m v1[m
+[33ma993240[m Corrige v2 revertido[m
+[33mea10083[m v2[m
+[33m7f297ab[m v1[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-01 21:59:44-03:00 [COMMAND_EXIT_CODE="0"]
