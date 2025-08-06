@@ -1,0 +1,275 @@
+Script started on 2025-08-06 16:30:46-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="29"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mecho "linha 1" > log.txt[27mecho "linha 1" > log.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit add log.txt[27mgit add log.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit commit -m "Commit 1"[27mgit commit -m "Commit 1"
+[?2004l[feature-123 494d766] Commit 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 log.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mecho "linha 2" >> log.txt[27mecho "linha 2" >> log.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit commit -am "Commit 2"[27mgit commit -am "Commit 2"
+[?2004l[feature-123 f241af2] Commit 2
+ 1 file changed, 1 insertion(+)
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mecho "linha 3" >> log.txt[27mecho "linha 3" >> log.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit commit -am "Commit 3"[27mgit commit -am "Commit 3"
+[?2004l[feature-123 840462f] Commit 3
+ 1 file changed, 1 insertion(+)
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit log --oneline[27mgit log --oneline
+[?2004l[?1h=[33m840462f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-123[m[33m)[m Commit 3[m
+[33mf241af2[m Commit 2[m
+[33m494d766[m Commit 1[m
+[33m722ef99[m alteração na branch A[m
+[33m1490288[m[33m ([m[1;32mfeature-888[m[33m)[m alteração na branch B[m
+[33mdd173b4[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m commit base[m
+[33m8b0630a[m[33m ([m[1;32mfeature[m[33m)[m commit na main[m
+[33me918bee[m configurando o ignore[m
+[33mec73f14[m Resolvido conflito[m
+[33mfc44b8b[m Merge branch 'branch3'[m
+[33m2de9f0b[m Merge branch 'branch2'[m
+[33m48c727d[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33m0699396[m[33m ([m[1;32mbranch2[m[33m)[m adicionei linha 2 na branch2[m
+[33mafb88b0[m[33m ([m[1;32mbranch1[m[33m)[m adicionei linha 2 no arquivo[m
+[33ma97f6ea[m adicionei linha 1 no arquivo.txt[m
+[33m1d28fbd[m Merge branch 'feature-b'[m
+[33m6e57cba[m[33m ([m[1;32mfeature-b[m[33m)[m Feature B[m
+[33me6596fb[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma953bab[m v3 main[m
+[33m8450795[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33mbd0dcec[m alterei o arquivo.txt[m
+[33m6f2170d[m commit 2[m
+[33m119fa22[m commit 1[m
+[33mff7f074[m v4[m
+[33m746e8f6[m v3[m
+[33md8e8e5f[m v2[m
+[33m042930c[m v1[m
+[33m430ba99[m v1[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[29;1H[K[K:[K[K[7mNo next tag  (press RETURN)[27m[29;1H[K[K:[K[K[K:[K[K[33ma993240[m Corrige v2 revertido[m
+[33mea10083[m v2[m
+[33m7f297ab[m v1[m
+[7m(END)[27m[K[K[7mCannot edit standard input  (press RETURN)[27m[29;1H[K[K:[K11[K..[K00[K[K[7m(END)[27m[K[K...skipping...
+[m
+                   [1mSUMMARY[0m [1mOF[0m [1mLESS[0m [1mCOMMANDS[0m[m
+[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-}  ^RightArrow   Right to last column displayed.[m
+  ESC-{  ^LeftArrow    Left  to first column.[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[KExamine: [KAA[KDD[K~~[K22[K[K[K[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K  r  ^R  ^L            Repaint screen.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K [KESCESC[KOO[KBB[K  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K [KESCESC[KOO[KCC[H[2J[H[m
+[m
+[m
+ is ctrl-K.[m
+[m
+[m
+[m
+-------------[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+).[m
+).[m
+nd-of-file.[m
+indow to [4mN[24m).[m
+indow to [4mN[24m).[m
+ons).[m
+ons).[m
+[m
+[m
+[m
+ound.[m
+[m
+t.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[29;1H[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K [KESCESC[KOO[KBB[Kt.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-}  ^RightArrow   Right to last column displayed.[m
+  ESC-{  ^LeftArrow    Left  to first column.[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K [KESCESC[KOO[KDD[H[2J[H[m
+      Commands marked with * may be preceded by a number, [4mN[24m.[m
+      Notes in parentheses indicate the behavior if [4mN[24m is given.[m
+      A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.[m
+[m
+  h  H                 Display this help.[m
+  q  :q  Q  :Q  ZZ     Exit.[m
+ ---------------------------------------------------------------------------[m
+[m
+                           [1mMOVING[0m[m
+[m
+  e  ^E  j  ^N  CR  *  Forward  one line   (or [4mN[24m lines).[m
+  y  ^Y  k  ^K  ^P  *  Backward one line   (or [4mN[24m lines).[m
+  f  ^F  ^V  SPACE  *  Forward  one window (or [4mN[24m lines).[m
+  b  ^B  ESC-v      *  Backward one window (or [4mN[24m lines).[m
+  z                 *  Forward  one window (and set window to [4mN[24m).[m
+  w                 *  Backward one window (and set window to [4mN[24m).[m
+  ESC-SPACE         *  Forward  one window, but don't stop at end-of-file.[m
+  d  ^D             *  Forward  one half-window (and set half-window to [4mN[24m).[m
+  u  ^U             *  Backward one half-window (and set half-window to [4mN[24m).[m
+  ESC-)  RightArrow *  Right one half screen width (or [4mN[24m positions).[m
+  ESC-(  LeftArrow  *  Left  one half screen width (or [4mN[24m positions).[m
+  ESC-}  ^RightArrow   Right to last column displayed.[m
+  ESC-{  ^LeftArrow    Left  to first column.[m
+  F                    Forward forever; like "tail -f".[m
+  ESC-F                Like F but stop when search pattern is found.[m
+  r  ^R  ^L            Repaint screen.[m
+  R                    Repaint screen, discarding buffered input.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K [KESCESC[KOO[KBB[K        ---------------------------------------------------[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K[K        Default "window" is the screen height.[m
+[7mHELP -- Press RETURN for more, or q when done[27m[K[K[7mHELP -- Press RETURN for more, or q when done[27m[K...skipping...
+[33m722ef99[m alteração na branch A[m
+[33m1490288[m[33m ([m[1;32mfeature-888[m[33m)[m alteração na branch B[m
+[33mdd173b4[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m commit base[m
+[33m8b0630a[m[33m ([m[1;32mfeature[m[33m)[m commit na main[m
+[33me918bee[m configurando o ignore[m
+[33mec73f14[m Resolvido conflito[m
+[33mfc44b8b[m Merge branch 'branch3'[m
+[33m2de9f0b[m Merge branch 'branch2'[m
+[33m48c727d[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33m0699396[m[33m ([m[1;32mbranch2[m[33m)[m adicionei linha 2 na branch2[m
+[33mafb88b0[m[33m ([m[1;32mbranch1[m[33m)[m adicionei linha 2 no arquivo[m
+[33ma97f6ea[m adicionei linha 1 no arquivo.txt[m
+[33m1d28fbd[m Merge branch 'feature-b'[m
+[33m6e57cba[m[33m ([m[1;32mfeature-b[m[33m)[m Feature B[m
+[33me6596fb[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma953bab[m v3 main[m
+[33m8450795[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33mbd0dcec[m alterei o arquivo.txt[m
+[33m6f2170d[m commit 2[m
+[33m119fa22[m commit 1[m
+[33mff7f074[m v4[m
+[33m746e8f6[m v3[m
+[33md8e8e5f[m v2[m
+[33m042930c[m v1[m
+[33m430ba99[m v1[m
+[33ma993240[m Corrige v2 revertido[m
+[33mea10083[m v2[m
+[33m7f297ab[m v1[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[33m494d766[m Commit 1[m
+[29;1H[K:[K[K[33m7f297ab[m v1[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[H[2J[H[33m722ef99[m alteração na branch A[m
+[33m1490288[m[33m ([m[1;32mfeature-888[m[33m)[m alteração na branch B[m
+[33mdd173b4[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m commit base[m
+[33m8b0630a[m[33m ([m[1;32mfeature[m[33m)[m commit na main[m
+[33me918bee[m configurando o ignore[m
+[33mec73f14[m Resolvido conflito[m
+[33mfc44b8b[m Merge branch 'branch3'[m
+[33m2de9f0b[m Merge branch 'branch2'[m
+[33m48c727d[m[33m ([m[1;32mbranch3[m[33m)[m Commit na branch3[m
+[33m0699396[m[33m ([m[1;32mbranch2[m[33m)[m adicionei linha 2 na branch2[m
+[33mafb88b0[m[33m ([m[1;32mbranch1[m[33m)[m adicionei linha 2 no arquivo[m
+[33ma97f6ea[m adicionei linha 1 no arquivo.txt[m
+[33m1d28fbd[m Merge branch 'feature-b'[m
+[33m6e57cba[m[33m ([m[1;32mfeature-b[m[33m)[m Feature B[m
+[33me6596fb[m[33m ([m[1;32mfeature-a[m[33m)[m Feature A[m
+[33ma953bab[m v3 main[m
+[33m8450795[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m v2 main[m
+[33mbd0dcec[m alterei o arquivo.txt[m
+[33m6f2170d[m commit 2[m
+[33m119fa22[m commit 1[m
+[33mff7f074[m v4[m
+[33m746e8f6[m v3[m
+[33md8e8e5f[m v2[m
+[33m042930c[m v1[m
+[33m430ba99[m v1[m
+[33ma993240[m Corrige v2 revertido[m
+[33mea10083[m v2[m
+[33m7f297ab[m v1[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag v1.0 HEAD~2[27mgit tag v1.0 HEAD~2
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag v1.1 HEAD~1[27mgit tag v1.1 HEAD~1
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag v1.2 HEAD[27mgit tag v1.2 HEAD
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag[27mgit tag
+[?2004l[?1h=v1.0[m
+v1.1[m
+v1.2[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit show v1.1[27mgit show v1.1
+[?2004l[?1h=[33mcommit f241af25b048c5b8593d954c7f5b34f2d910e5f9[m[33m ([m[1;33mtag: [m[1;33mv1.1[m[33m)[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:31:17 2025 -0300[m
+[m
+    Commit 2[m
+[m
+[1mdiff --git a/log.txt b/log.txt[m[m
+[1mindex 9ece502..b657d30 100644[m[m
+[1m--- a/log.txt[m[m
+[1m+++ b/log.txt[m[m
+[36m@@ -1 +1,2 @@[m[m
+ linha 1[m[m
+[32m+[m[32mlinha 2[m[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit checkout v1.0[27mgit checkout v1.0
+[?2004lNote: switching to 'v1.0'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 494d766 Commit 1
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit checkout main[27mgit checkout main
+[?2004lPrevious HEAD position was 494d766 Commit 1
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2025-08-06 16:37:49-03:00 [COMMAND_EXIT_CODE="0"]
