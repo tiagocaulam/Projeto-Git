@@ -1,0 +1,36 @@
+Script started on 2025-08-06 17:07:07-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="29"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd  git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag hotfix[27mgit tag hotfix
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag[27mgit tag
+[?2004l[?1h=hotfix[m
+v1.0[m
+v1.1[m
+v1.2[m
+v2.0[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag[27m[1Pgit ta[K[K[K[K[K[K[7mgit tag -d hotfix[27mgit tag -d hotfix
+[?2004lDeleted tag 'hotfix' (was a80a2a1)
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag -a hotfix -m "Hotfix anotado"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit tag -a hotfix -m "Hotfix anotado"
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit show hotfix[27mgit show hotfix
+[?2004l[?1h=[33mtag hotfix[m[m
+Tagger: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 17:08:06 2025 -0300[m
+[m
+Hotfix anotado[m
+[m
+[33mcommit a80a2a1f8c9d2ae6ceb3ffaf9b03b6b52a5df822[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv2.0[m[33m, [m[1;33mtag: [m[1;33mhotfix[m[33m)[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:58:06 2025 -0300[m
+[m
+    Commit com anotação de versão[m
+[m
+[1mdiff --git a/versao.txt b/versao.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..41ca58b[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/versao.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mversão com nota[m[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2025-08-06 17:08:26-03:00 [COMMAND_EXIT_CODE="0"]

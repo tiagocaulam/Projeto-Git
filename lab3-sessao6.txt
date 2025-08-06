@@ -1,0 +1,38 @@
+Script started on 2025-08-06 16:57:51-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="29"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mecho "versão com nota" >> versao.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "versão com nota" >> versao.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit add versao.txt[27mgit add versao.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit commit -m "Commit com anotação de versão"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Commit com anotação de versão"
+[?2004l[main a80a2a1] Commit com anotação de versão
+ 1 file changed, 1 insertion(+)
+ create mode 100644 versao.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag -a v2.0 -m "Versão 2.0 com melhorias"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit tag -a v2.0 -m "Versão 2.0 com melhorias"
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit show v2.0[27mgit show v2.0
+[?2004l[?1h=[33mtag v2.0[m[m
+Tagger: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 17:04:23 2025 -0300[m
+[m
+Versão 2.0 com melhorias[m
+[m
+[33mcommit a80a2a1f8c9d2ae6ceb3ffaf9b03b6b52a5df822[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv2.0[m[33m)[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:58:06 2025 -0300[m
+[m
+    Commit com anotação de versão[m
+[m
+[1mdiff --git a/versao.txt b/versao.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..41ca58b[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/versao.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mversão com nota[m[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag -n[27mgit tag -n
+[?2004l[?1h=v1.0            Commit 1[m
+v1.1            Commit 2[m
+v1.2            Commit 3[m
+v2.0            Versão 2.0 com melhorias[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2025-08-06 17:04:41-03:00 [COMMAND_EXIT_CODE="0"]
