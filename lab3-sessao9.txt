@@ -1,0 +1,40 @@
+Script started on 2025-08-06 17:13:23-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="29"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag[27mgit tag
+[?2004l[?1h=hotfix[m
+release-1.0[m
+v1.0[m
+v1.1[m
+v1.2[m
+v2.0[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit checkout v1.1[27mgit checkout v1.1
+[?2004lNote: switching to 'v1.1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f241af2 Commit 2
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit switch -c branch-v1.1[27mgit switch -c branch-v1.1
+[?2004lSwitched to a new branch 'branch-v1.1'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mecho "patch para v1.1" >> changelog.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "patch para v1.1" >> changelog.txt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit add . && git commit -m "patch para versão 1.1"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add . && git commit -m "patch para versão 1.1"
+[?2004lgrep: *.py: No such file or directory
+[branch-v1.1 d82ba7f] patch para versão 1.1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 changelog.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mexit[27mexit
+[?2004lexit
+
+Script done on 2025-08-06 17:14:07-03:00 [COMMAND_EXIT_CODE="0"]
