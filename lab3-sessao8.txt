@@ -1,0 +1,35 @@
+Script started on 2025-08-06 17:10:59-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="29"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd  git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit tag release-1.0[27mgit tag release-1.0
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit push origin release-1.0[27mgit push origin release-1.0
+[?2004lUsername for 'https://github.com': tiagocaumam   lam
+Password for 'https://tiagocaulam@github.com': 
+Enumerating objects: 18, done.
+Counting objects:   5% (1/18)Counting objects:  11% (2/18)Counting objects:  16% (3/18)Counting objects:  22% (4/18)Counting objects:  27% (5/18)Counting objects:  33% (6/18)Counting objects:  38% (7/18)Counting objects:  44% (8/18)Counting objects:  50% (9/18)Counting objects:  55% (10/18)Counting objects:  61% (11/18)Counting objects:  66% (12/18)Counting objects:  72% (13/18)Counting objects:  77% (14/18)Counting objects:  83% (15/18)Counting objects:  88% (16/18)Counting objects:  94% (17/18)Counting objects: 100% (18/18)Counting objects: 100% (18/18), done.
+Delta compression using up to 20 threads
+Compressing objects:   6% (1/16)Compressing objects:  12% (2/16)Compressing objects:  18% (3/16)Compressing objects:  25% (4/16)Compressing objects:  31% (5/16)Compressing objects:  37% (6/16)Compressing objects:  43% (7/16)Compressing objects:  50% (8/16)Compressing objects:  56% (9/16)Compressing objects:  62% (10/16)Compressing objects:  68% (11/16)Compressing objects:  75% (12/16)Compressing objects:  81% (13/16)Compressing objects:  87% (14/16)Compressing objects:  93% (15/16)Compressing objects: 100% (16/16)Compressing objects: 100% (16/16), done.
+Writing objects:   5% (1/17)Writing objects:  11% (2/17)Writing objects:  17% (3/17)Writing objects:  23% (4/17)Writing objects:  29% (5/17)Writing objects:  35% (6/17)Writing objects:  41% (7/17)Writing objects:  47% (8/17)Writing objects:  52% (9/17)Writing objects:  58% (10/17)Writing objects:  64% (11/17)Writing objects:  70% (12/17)Writing objects:  76% (13/17)Writing objects:  82% (14/17)Writing objects:  88% (15/17)Writing objects:  94% (16/17)Writing objects: 100% (17/17)Writing objects: 100% (17/17), 7.88 KiB | 3.94 MiB/s, done.
+Total 17 (delta 8), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/8)[Kremote: Resolving deltas:  12% (1/8)[Kremote: Resolving deltas:  25% (2/8)[Kremote: Resolving deltas:  37% (3/8)[Kremote: Resolving deltas:  50% (4/8)[Kremote: Resolving deltas:  62% (5/8)[Kremote: Resolving deltas:  75% (6/8)[Kremote: Resolving deltas:  87% (7/8)[Kremote: Resolving deltas: 100% (8/8)[Kremote: Resolving deltas: 100% (8/8), completed with 1 local object.[K
+To https://github.com/tiagocaulam/Projeto-Git.git
+ * [new tag]         release-1.0 -> release-1.0
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit push origin --tags[27mgit push origin --tags
+[?2004lUsername for 'https://github.com': tiagocaulam
+Password for 'https://tiagocaulam@github.com': 
+Enumerating objects: 19, done.
+Counting objects:   5% (1/19)Counting objects:  10% (2/19)Counting objects:  15% (3/19)Counting objects:  21% (4/19)Counting objects:  26% (5/19)Counting objects:  31% (6/19)Counting objects:  36% (7/19)Counting objects:  42% (8/19)Counting objects:  47% (9/19)Counting objects:  52% (10/19)Counting objects:  57% (11/19)Counting objects:  63% (12/19)Counting objects:  68% (13/19)Counting objects:  73% (14/19)Counting objects:  78% (15/19)Counting objects:  84% (16/19)Counting objects:  89% (17/19)Counting objects:  94% (18/19)Counting objects: 100% (19/19)Counting objects: 100% (19/19), done.
+Delta compression using up to 20 threads
+Compressing objects:   8% (1/12)Compressing objects:  16% (2/12)Compressing objects:  25% (3/12)Compressing objects:  33% (4/12)Compressing objects:  41% (5/12)Compressing objects:  50% (6/12)Compressing objects:  58% (7/12)Compressing objects:  66% (8/12)Compressing objects:  75% (9/12)Compressing objects:  83% (10/12)Compressing objects:  91% (11/12)Compressing objects: 100% (12/12)Compressing objects: 100% (12/12), done.
+Writing objects:   5% (1/17)Writing objects:  11% (2/17)Writing objects:  17% (3/17)Writing objects:  23% (4/17)Writing objects:  29% (5/17)Writing objects:  35% (6/17)Writing objects:  41% (7/17)Writing objects:  47% (8/17)Writing objects:  52% (9/17)Writing objects:  58% (10/17)Writing objects:  64% (11/17)Writing objects:  70% (12/17)Writing objects:  76% (13/17)Writing objects:  82% (14/17)Writing objects:  88% (15/17)Writing objects:  94% (16/17)Writing objects: 100% (17/17)Writing objects: 100% (17/17), 1.35 KiB | 1.35 MiB/s, done.
+Total 17 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/6)[Kremote: Resolving deltas:  16% (1/6)[Kremote: Resolving deltas:  33% (2/6)[Kremote: Resolving deltas:  50% (3/6)[Kremote: Resolving deltas:  66% (4/6)[Kremote: Resolving deltas:  83% (5/6)[Kremote: Resolving deltas: 100% (6/6)[Kremote: Resolving deltas: 100% (6/6), completed with 1 local object.[K
+To https://github.com/tiagocaulam/Projeto-Git.git
+ * [new tag]         hotfix -> hotfix
+ * [new tag]         v1.0 -> v1.0
+ * [new tag]         v1.1 -> v1.1
+ * [new tag]         v1.2 -> v1.2
+ * [new tag]         v2.0 -> v2.0
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-06 17:12:47-03:00 [COMMAND_EXIT_CODE="0"]
