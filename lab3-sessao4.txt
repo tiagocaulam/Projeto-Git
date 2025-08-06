@@ -1,0 +1,267 @@
+Script started on 2025-08-06 16:50:37-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="29"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit branch # main[27mgit branch # main[[K
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-123[m[m
+  feature-888[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit log[27mgit log
+[?2004l[?1h=[33mcommit 87e24059b0471e72406789d398e04b52047f55d0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:50:29 2025 -0300[m
+[m
+    lab sessao 3.3[m
+[m
+[33mcommit 9f8a68d28925628433e85a55f636891edd26efa5[m[33m ([m[1;31morigin/main[m[33m)[m[m
+Merge: 899c3d4 306406e[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:48:08 2025 -0300[m
+[m
+    Merge branch 'test-reset'[m
+[m
+[33mcommit 306406ebe61025b147726bf1080d96174c6cef8b[m[33m ([m[1;31morigin/test-reset[m[33m, [m[1;32mtest-reset[m[33m)[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:42:29 2025 -0300[m
+[m
+    colocando os lab-script[m
+[m
+[33mcommit 899c3d4465a712e0ac32c941e35c79f8a491945a[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:40:29 2025 -0300[m
+[m
+    commit limpo[m
+[m
+[33mcommit dd173b4f9a0b36b870a1defe0255b10c4ce3f788[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 21:53:25 2025 -0300[m
+:[K[K[m
+:[K[K    commit base[m
+:[K[K[m
+:[K[K[33mcommit 8b0630af3d5fb6453cff631ef9f5e0192ce38a9b[m[33m ([m[1;32mfeature[m[33m)[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:49:18 2025 -0300[m
+:[K[K[m
+:[K[K    commit na main[m
+:[K[K[m
+:[K[K[33mcommit e918bee95a0a1d0af88e1c57321de4d512ca8958[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:46:42 2025 -0300[m
+:[K[K[m
+:[K[K    configurando o ignore[m
+:[K[K[m
+:[K[K[33mcommit ec73f142ac72c82c3b56b5803025b1f51b534401[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:42:21 2025 -0300[m
+:[K[K[m
+:[K[K    Resolvido conflito[m
+:[K[K[m
+:[K[K[33mcommit fc44b8b5b63474ebd82ff86030b22bb56c42b1c1[m[m
+:[K[KMerge: 2de9f0b 48c727d[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:41:09 2025 -0300[m
+:[K[K[m
+:[K[K    Merge branch 'branch3'[m
+:[K[K[m
+:[K[K[33mcommit 2de9f0b42b0c4e030a0ded31177cc116fae98293[m[m
+:[K[KMerge: afb88b0 0699396[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:40:11 2025 -0300[m
+:[K[K[m
+:[K[K    Merge branch 'branch2'[m
+:[K[K[m
+:[K[K[33mcommit 48c727db7adf5faeadda22f747d80a2a08e4b69d[m[33m ([m[1;32mbranch3[m[33m)[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:38:43 2025 -0300[m
+:[K[K[m
+:[K[K    Commit na branch3[m
+:[K[K[m
+:[K[K[33mcommit 0699396983b086a75f762effffb32a393001f127[m[33m ([m[1;32mbranch2[m[33m)[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:35:15 2025 -0300[m
+:[K[K[m
+:[K[K    adicionei linha 2 na branch2[m
+:[K[K[m
+:[K[K[33mcommit afb88b0d37365f314ff2b8d3981093b48e661dea[m[33m ([m[1;32mbranch1[m[33m)[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:30:46 2025 -0300[m
+:[K[K[m
+:[K[K    adicionei linha 2 no arquivo[m
+:[K[K[m
+:[K[K[33mcommit a97f6ea26d12981511fed7b542ebbe11a11491d5[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:28:37 2025 -0300[m
+:[K[K[m
+:[K[K    adicionei linha 1 no arquivo.txt[m
+:[K[K[m
+:[K[K[33mcommit 1d28fbd9154d2785664281551ff33e9768baac0b[m[m
+:[K[KMerge: e6596fb 6e57cba[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:23:49 2025 -0300[m
+:[K[K[m
+:[K[K    Merge branch 'feature-b'[m
+:[K[K[m
+:[K[K[33mcommit 6e57cba704fb86cfb74c3ce4f90d5d6dbcf9f082[m[33m ([m[1;32mfeature-b[m[33m)[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:19:29 2025 -0300[m
+:[K[K[m
+:[K[K    Feature B[m
+:[K[K[m
+:[K[K[33mcommit e6596fb5941a973489356cb15d76f3504c84d03e[m[33m ([m[1;32mfeature-a[m[33m)[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:17:25 2025 -0300[m
+:[K[K[m
+:[K[K    Feature A[m
+:[K[K[m
+:[K[K[33mcommit a953babbfafb22dfc8cec846d10fa26f38d9e5ce[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:10:56 2025 -0300[m
+:[K[K[m
+:[K[K    v3 main[m
+:[K[K[m
+:[K[K[33mcommit 845079515cf5e47075850020f55b6b09b3605b3d[m[33m ([m[1;32mtest[m[33m, [m[1;32mprod[m[33m)[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 21:09:50 2025 -0300[m
+:[K[K[m
+:[K[K    v2 main[m
+:[K[K[m
+:[K[K[33mcommit bd0dcec0d21a1fb11634b2d1ec50b509af23ec23[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 19:26:06 2025 -0300[m
+:[K[K[m
+:[K[K    alterei o arquivo.txt[m
+:[K[K[m
+:[K[K[33mcommit 6f2170da404b50effed3e1702aee364102675193[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 16:08:46 2025 -0300[m
+:[K[K[m
+:[K[K    commit 2[m
+:[K[K[m
+:[K[K[33mcommit 119fa22c16d20f1361630b029adf848d98cae238[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 16:06:24 2025 -0300[m
+:[K[K[m
+:[K[K    commit 1[m
+:[K[K[m
+:[K[K[33mcommit ff7f074018f6cbe864bf7796b3ac5f71bd92af24[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 16:03:26 2025 -0300[m
+:[K[K[m
+:[K[K    v4[m
+:[K[K[m
+:[K[K[33mcommit 746e8f64e69832c595d751a8540434609a42d0d6[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 16:03:18 2025 -0300[m
+:[K[K[m
+:[K[K    v3[m
+:[K[K[m
+:[K[K[33mcommit d8e8e5f4da3d797bd414473038d3af9f4de9913c[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 16:03:12 2025 -0300[m
+:[K[K[m
+:[K[K    v2[m
+:[K[K[m
+:[K[K[33mcommit 042930c3fd0a0010b385b0ecd8f5c357a9531b39[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 16:03:04 2025 -0300[m
+:[K[K[m
+:[K[K    v1[m
+:[K[K[m
+:[K[K[33mcommit 430ba996b514bf104c08faee21160e162b272687[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 16:02:02 2025 -0300[m
+:[K[K[m
+:[K[K    v1[m
+:[K[K[m
+:[K[K[33mcommit a99324038c2b67ccac516d477d27e7aa05ed0a39[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 15:59:22 2025 -0300[m
+:[K[K[m
+:[K[K    Corrige v2 revertido[m
+:[K[K[m
+:[K[K[33mcommit ea10083dc108ac49082ae652239a9292b5d6ab18[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 15:57:14 2025 -0300[m
+:[K[K[m
+:[K[K    v2[m
+:[K[K[m
+:[K[K[33mcommit 7f297ab15259e0a9151486a347b543381a7f58c0[m[m
+:[K[KAuthor: Tiago <tiagocaulam@gmail.com>[m
+:[K[KDate:   Fri Aug 1 15:57:07 2025 -0300[m
+:[K[K[m
+:[K[K    v1[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[H[2J[HAuthor: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 16:03:04 2025 -0300[m
+[m
+    v1[m
+[m
+[33mcommit 430ba996b514bf104c08faee21160e162b272687[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 16:02:02 2025 -0300[m
+[m
+    v1[m
+[m
+[33mcommit a99324038c2b67ccac516d477d27e7aa05ed0a39[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 15:59:22 2025 -0300[m
+[m
+    Corrige v2 revertido[m
+[m
+[33mcommit ea10083dc108ac49082ae652239a9292b5d6ab18[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 15:57:14 2025 -0300[m
+[m
+    v2[m
+[m
+[33mcommit 7f297ab15259e0a9151486a347b543381a7f58c0[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 15:57:07 2025 -0300[m
+[m
+    v1[m
+[7m(END)[27m[K[H[2J[HAuthor: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 16:03:04 2025 -0300[m
+[m
+    v1[m
+[m
+[33mcommit 430ba996b514bf104c08faee21160e162b272687[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 16:02:02 2025 -0300[m
+[m
+    v1[m
+[m
+[33mcommit a99324038c2b67ccac516d477d27e7aa05ed0a39[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 15:59:22 2025 -0300[m
+[m
+    Corrige v2 revertido[m
+[m
+[33mcommit ea10083dc108ac49082ae652239a9292b5d6ab18[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 15:57:14 2025 -0300[m
+[m
+    v2[m
+[m
+[33mcommit 7f297ab15259e0a9151486a347b543381a7f58c0[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Fri Aug 1 15:57:07 2025 -0300[m
+[m
+    v1[m
+[7m(END)[27m[K[K[?1l>
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit checkout -b test_hard[27mgit checkout -b test_hard
+[?2004lSwitched to a new branch 'test_hard'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit reset --hard HEAD~1[27mgit reset --hard HEAD~1
+[?2004lHEAD is now at 9f8a68d Merge branch 'test-reset'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit status[27mgit status4[K
+[?2004lOn branch test_hard
+nothing to commit, working tree clean
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-06 16:51:48-03:00 [COMMAND_EXIT_CODE="0"]
