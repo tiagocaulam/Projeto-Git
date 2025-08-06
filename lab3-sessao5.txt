@@ -1,0 +1,90 @@
+Script started on 2025-08-06 16:54:35-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="127" LINES="29"]
+[?2004h]0;tiago@TiagoMaia: ~[01;32mtiago@TiagoMaia[00m:[01;34m~[00m$ cd git-workshop/
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit branch # main[27mgit branch # main
+[?2004l[?1h=  branch1[m[m
+  branch2[m[m
+  branch3[m[m
+  feature[m[m
+  feature-123[m[m
+  feature-888[m[m
+  feature-a[m[m
+  feature-b[m[m
+* [32mmain[m[m
+  prod[m[m
+  test[m[m
+  test-reset[m[m
+  test_hard[m[m
+[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit log[27mgit log
+[?2004l[?1h=[33mcommit 362986baeb1b7adefa1b07696764c1638ce14a7c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:54:18 2025 -0300[m
+[m
+    adicionando as sessões[m
+[m
+[33mcommit 87e24059b0471e72406789d398e04b52047f55d0[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:50:29 2025 -0300[m
+[m
+    lab sessao 3.3[m
+[m
+[33mcommit 9f8a68d28925628433e85a55f636891edd26efa5[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mtest_hard[m[33m)[m[m
+Merge: 899c3d4 306406e[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:48:08 2025 -0300[m
+[m
+    Merge branch 'test-reset'[m
+[m
+[33mcommit 306406ebe61025b147726bf1080d96174c6cef8b[m[33m ([m[1;31morigin/test-reset[m[33m, [m[1;32mtest-reset[m[33m)[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:42:29 2025 -0300[m
+[m
+    colocando os lab-script[m
+[m
+[33mcommit 899c3d4465a712e0ac32c941e35c79f8a491945a[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:40:29 2025 -0300[m
+:[K[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit checkout -b test_revert[27mgit checkout -b test_revert
+[?2004lSwitched to a new branch 'test_revert'
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git [K[K[K[Kecho "teste" > teste.doc[K[K[Ktxt
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git add .
+[?2004l[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git commit - [Km "teste"
+[?2004l[test_revert ad79deb] teste
+ 1 file changed, 1 insertion(+)
+ create mode 100644 teste.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ git[7mgit revert HEAD~1[27m[1Pgit revert HEAD~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgit revert HEAD~1[27mgit revert HEAD~1
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;29r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[27;57H(B[0;7m[ Reading... ](B[m[27;56H(B[0;7m[ Read 12 lines ](B[m[H(B[0;7m  GNU nano 7.2                              /home/tiago/git-workshop/.git/COMMIT_EDITMSG                                       [1;126H(B[m[28d(B[0;7m^G(B[m Help[28;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[28;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[29d(B[0;7m^X(B[m Exit[29;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2dRevert "adicionando as sessões"[4dThis reverts commit 362986baeb1b7adefa1b07696764c1638ce14a7c.[6d[36m# Please enter the commit message for your changes. Lines starting[7d# with '#' will be ignored, and an empty message aborts the commit.[8d#[9d# On branch test_revert[10d# Changes to be committed:[11d#[38;5;208m       [36mmodified:   lab3-sessao3.txt[12d#[38;5;208m       [36mdeleted:    lab3-sessao4.txt[13d#[2d[39m(B[m[?12l[?25h[?25l[27d[J[29d[?12l[?25h[29;1H[?1049l[23;0;0t[?1l>[?2004l[K[test_revert ef1ad54] Revert "adicionando as sessões"
+ 2 files changed, 54 insertions(+), 286 deletions(-)
+ delete mode 100644 lab3-sessao4.txt
+[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ [7mgit log[27mgit log
+[?2004l[?1h=[33mcommit ef1ad5476db125417f88a9d17ffaeb72283fe64f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtest_revert[m[33m)[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:55:45 2025 -0300[m
+[m
+    Revert "adicionando as sessões"[m
+    [m
+    This reverts commit 362986baeb1b7adefa1b07696764c1638ce14a7c.[m
+[m
+[33mcommit ad79debdb9dc21fd8e72a98c42f5978900fb8ffb[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:55:35 2025 -0300[m
+[m
+    teste[m
+[m
+[33mcommit 362986baeb1b7adefa1b07696764c1638ce14a7c[m[33m ([m[1;32mmain[m[33m)[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:54:18 2025 -0300[m
+[m
+    adicionando as sessões[m
+[m
+[33mcommit 87e24059b0471e72406789d398e04b52047f55d0[m[m
+Author: Tiago <tiagocaulam@gmail.com>[m
+Date:   Wed Aug 6 16:50:29 2025 -0300[m
+[m
+    lab sessao 3.3[m
+[m
+[33mcommit 9f8a68d28925628433e85a55f636891edd26efa5[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mtest_hard[m[33m)[m[m
+Merge: 899c3d4 306406e[m
+:[K[K[?1l>[?2004h]0;tiago@TiagoMaia: ~/git-workshop[01;32mtiago@TiagoMaia[00m:[01;34m~/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-06 16:56:11-03:00 [COMMAND_EXIT_CODE="0"]
